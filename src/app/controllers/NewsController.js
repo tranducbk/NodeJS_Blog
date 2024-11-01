@@ -4,6 +4,11 @@ class NewController {
         res.render('news');
     }
 
+    // [GET] /news/:slug
+    show(req, res) {
+        res.send('NEWS DETAIL!')
+    }
+
 }
 
 module.exports = new NewController();
