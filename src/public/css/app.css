@@ -1,2 +1,8 @@
 h1 {
-  color: violet; }
+  color: black; 
+}
+
+.card-course-item {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
